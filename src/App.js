@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
-import image from './images/speaker-image.jpg'
+import './styles.css';
+import image from './images/speaker-image.jpg';
 
 function Content() {
   return (
