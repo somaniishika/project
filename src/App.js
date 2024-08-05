@@ -1,6 +1,7 @@
 import React from 'react';
+import './app.css';
 
-const AzureAIStudioDeepDive = () => {
+function AzureAIStudioDeepDive() {
   return (
     <div className="container">
       <h1>Deep Dive In To</h1>
@@ -22,6 +23,6 @@ const AzureAIStudioDeepDive = () => {
       <a href="https://reskilll.com/event/aiistudio" className="registration-link">Registration Link</a>
     </div>
   );
-};
+}
 
 export default AzureAIStudioDeepDive;
