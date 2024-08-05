@@ -1,38 +1,49 @@
-.App {
+body {
+  background-color: #1f2833; /* Dark background color */
+  color: #fff; /* White text color */
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
   text-align: center;
+  padding-top: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.info-section {
+  background-color: #212b36; /* Darker shade for info section */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.speaker-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.speaker-details {
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.registration-link {
+  background-color: #007bff; /* Blue button color */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.registration-link:hover {
+  background-color: #0062cc; /* Darker blue on hover */
 }

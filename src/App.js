@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+const AzureAIStudioDeepDive = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h1>Deep Dive In To</h1>
+      <h1>Azure AI Studio</h1>
+
+      <div className="info-section">
+        <h2>1st August, 2024 | 7:30 PM - 8:30 PM</h2>
+        <p>Online</p>
+      </div>
+
+      <div className="speaker-section">
+        <img src="speaker-image.jpg" alt="Speaker" className="speaker-image" />
+        <div className="speaker-details">
+          <h3>Saravanan Ganesan</h3>
+          <p>Assistant Consultant - Ilot, Tata Consultancy Services</p>
+        </div>
+      </div>
+
+      <a href="https://reskilll.com/event/aiistudio" className="registration-link">Registration Link</a>
     </div>
   );
-}
+};
 
-export default App;
+export default AzureAIStudioDeepDive;
