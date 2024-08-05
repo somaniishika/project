@@ -1,6 +1,6 @@
 body {
-  background-color: #1f2833; /* Dark background color */
-  color: #fff; /* White text color */
+  background-color: #1f2833; 
+  color: #fff; 
   font-family: 'Arial', sans-serif;
 }
 
@@ -12,10 +12,29 @@ body {
 h1, h2 {
   font-weight: bold;
   margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+  font-style: italic;
+  font-weight: lighter;
+}
+
+p{
+  font-style:normal;
+  font-size: medium;
+}
+
+.p4{
+  font-style: italic;
+}
+
+h6{
+  font-style: italic;
 }
 
 .info-section {
-  background-color: #212b36; /* Darker shade for info section */
+  background-color: #1f2833;
   padding: 20px;
   border-radius: 10px;
   margin-top: 30px;
@@ -33,7 +52,7 @@ h1, h2 {
 }
 
 .registration-link {
-  background-color: #007bff; /* Blue button color */
+  background-color: #007bff;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -45,5 +64,6 @@ h1, h2 {
 }
 
 .registration-link:hover {
-  background-color: #0062cc; /* Darker blue on hover */
+  background-color:#1f2833;
+  color: #fff;
 }
